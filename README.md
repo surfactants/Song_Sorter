@@ -1,5 +1,7 @@
 # Song_Sorter
 
+A Qt-based application which sorts song files.
+
 Song files are read from the ***source*** directory, then renamed based on their metadata and sorted into the ***destination*** directory. All file operations are performed on a separate thread.
 
 Files missing title, artist, or album tags are not moved, and instead display an error within the program.
